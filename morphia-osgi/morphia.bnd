@@ -1,0 +1,3 @@
+Private-Package: \
+	example.morphia
+Bundle-Activator:example.morphia.Activator

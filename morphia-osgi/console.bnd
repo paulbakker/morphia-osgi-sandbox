@@ -1,0 +1,3 @@
+Private-Package: \
+	example.console
+Bundle-Activator:example.console.Activator

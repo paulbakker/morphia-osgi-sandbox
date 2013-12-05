@@ -1,0 +1,932 @@
+<?xml version='1.0' encoding='utf-8'?>
+<repository increment='1386282802397' name='Local' xmlns='http://www.osgi.org/xmlns/repository/v1.0.0'>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='org.jongo'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='527728df5781725ae114f8ceb5fb637b7b660bfcee5b36e93cf752ac4e4b2726'/>
+      <attribute name='url' value='org.jongo/org.jongo-1.0.0.jar'/>
+      <attribute name='size' type='Long' value='1762396'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.core.base'/>
+      <attribute name='version' type='Version' value='2.2.3'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.core,com.fasterxml.jackson.core.json,com.fasterxml.jackson.core.util,com.fasterxml.jackson.core.io'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.core.sym'/>
+      <attribute name='version' type='Version' value='2.2.3'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.core.util'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.databind.introspect'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.util,com.fasterxml.jackson.core,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.annotation,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.jsontype.impl,com.fasterxml.jackson.databind.ser.std'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.jongo.bson'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.mongodb,org.bson,com.mongodb.gridfs,org.bson.io,org.bson.types'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.databind.exc'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.core,com.fasterxml.jackson.databind'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.databind.type'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.databind,com.fasterxml.jackson.core.type,com.fasterxml.jackson.core,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.util'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.bson'/>
+      <attribute name='version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='org.bson.util,org.bson.types,org.bson.io,com.mongodb.util,com.mongodb'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.databind.jsonschema'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.node,com.fasterxml.jackson.annotation'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.databind.deser.std'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.deser,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.node,com.fasterxml.jackson.databind.util,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.annotation,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.deser.impl,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.core.io'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.mongodb.util'/>
+      <attribute name='version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='org.bson.util,com.mongodb,org.bson,org.bson.types'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.databind'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.util,com.fasterxml.jackson.core,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.annotation,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.jsonFormatVisitors,com.fasterxml.jackson.databind.node,com.fasterxml.jackson.databind.deser,com.fasterxml.jackson.databind.deser.impl,com.fasterxml.jackson.databind.exc,com.fasterxml.jackson.core.type,com.fasterxml.jackson.core.format,com.fasterxml.jackson.databind.ser,com.fasterxml.jackson.databind.jsontype.impl,com.fasterxml.jackson.core.io,com.fasterxml.jackson.databind.jsonschema,com.fasterxml.jackson.core.util,com.fasterxml.jackson.databind.ser.impl,com.fasterxml.jackson.databind.ser.std'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='de.undercouch.bson4jackson.serializers'/>
+      <attribute name='version' type='Version' value='2.2.3'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.core,com.fasterxml.jackson.databind,de.undercouch.bson4jackson,de.undercouch.bson4jackson.types,com.fasterxml.jackson.databind.module'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.databind.jsontype'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.core,com.fasterxml.jackson.annotation'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='de.undercouch.bson4jackson.types'/>
+      <attribute name='version' type='Version' value='2.2.3'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.databind.module'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.deser,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.core,com.fasterxml.jackson.databind.ser'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.mongodb.gridfs'/>
+      <attribute name='version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.mongodb.util,com.mongodb,org.bson.types,org.bson'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.core'/>
+      <attribute name='version' type='Version' value='2.2.3'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.core.util,com.fasterxml.jackson.core.io,com.fasterxml.jackson.core.json,com.fasterxml.jackson.core.sym,com.fasterxml.jackson.core.format,com.fasterxml.jackson.core.type'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='de.undercouch.bson4jackson.io'/>
+      <attribute name='version' type='Version' value='2.2.3'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.bson.types'/>
+      <attribute name='version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='org.bson,org.bson.util'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.databind.ser.impl'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.core,com.fasterxml.jackson.databind.util,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.ser,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.ser.std,com.fasterxml.jackson.databind.jsonFormatVisitors,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.databind.node,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.core.io,com.fasterxml.jackson.annotation,com.fasterxml.jackson.databind.type'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.core.util'/>
+      <attribute name='version' type='Version' value='2.2.3'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.core,com.fasterxml.jackson.core.io'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='de.undercouch.bson4jackson.uuid'/>
+      <attribute name='version' type='Version' value='2.2.3'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.ser,de.undercouch.bson4jackson.serializers'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.databind.ext'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.deser.std,javax.xml.datatype,javax.xml.namespace,com.fasterxml.jackson.databind.deser,com.fasterxml.jackson.databind.jsonFormatVisitors,com.fasterxml.jackson.databind.ser.std,com.fasterxml.jackson.databind.ser,org.w3c.dom,javax.xml.parsers,org.xml.sax,org.w3c.dom.ls,com.fasterxml.jackson.databind.node,org.w3c.dom.bootstrap'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.jongo.marshall.jackson.configuration'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.core,org.jongo.marshall.jackson.bson4jackson,com.fasterxml.jackson.databind.module,de.undercouch.bson4jackson,com.fasterxml.jackson.annotation'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.jongo.marshall'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='org.jongo.bson'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.databind.jsonFormatVisitors'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.databind,com.fasterxml.jackson.annotation,com.fasterxml.jackson.core'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.bson.util.annotations'/>
+      <attribute name='version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.databind.deser'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.annotation,com.fasterxml.jackson.databind.deser.impl,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.util,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.databind.deser.std,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.ext,com.fasterxml.jackson.core.format,com.fasterxml.jackson.core.io,com.fasterxml.jackson.databind.jsontype.impl,com.fasterxml.jackson.databind.jsonFormatVisitors,com.fasterxml.jackson.core.util'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.databind.deser.impl'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.core,com.fasterxml.jackson.databind.util,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.deser,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.deser.std,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.annotation'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.mongodb.util.management'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.mongodb.util.management.jmx'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.mongodb'/>
+      <attribute name='version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='org.bson.io,org.bson,org.bson.util,org.bson.types,com.mongodb.util,org.bson.util.annotations,javax.security.sasl,javax.security.auth.callback,org.ietf.jgss,javax.net,com.mongodb.util.management,javax.net.ssl'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.core.io'/>
+      <attribute name='version' type='Version' value='2.2.3'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.core,com.fasterxml.jackson.core.util'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.mongodb.util.management.jmx'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.mongodb.util.management,javax.management'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.databind.util'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.core.io,com.fasterxml.jackson.core,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.core.json,com.fasterxml.jackson.core.util,com.fasterxml.jackson.core.base'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.jongo.marshall.jackson.oid'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.annotation,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.databind,org.bson.types'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.bson.util'/>
+      <attribute name='version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='org.bson.util.annotations'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.jongo.marshall.jackson.bson4jackson'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.core,com.fasterxml.jackson.databind,org.bson.types,com.mongodb.util,com.fasterxml.jackson.databind.module,com.mongodb,com.fasterxml.jackson.databind.ser,com.fasterxml.jackson.databind.deser,de.undercouch.bson4jackson,com.fasterxml.jackson.core.io,de.undercouch.bson4jackson.io,de.undercouch.bson4jackson.types'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.bson.io'/>
+      <attribute name='version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='org.bson,com.mongodb.util,org.bson.util'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.annotation'/>
+      <attribute name='version' type='Version' value='2.2.3'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.jongo.query'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='org.bson,com.mongodb.util,com.mongodb,org.jongo.marshall,org.jongo.bson'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.core.format'/>
+      <attribute name='version' type='Version' value='2.2.3'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.core,com.fasterxml.jackson.core.io'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.databind.ser.std'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.ser,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.node,com.fasterxml.jackson.databind.jsonFormatVisitors,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.jsonschema,com.fasterxml.jackson.databind.ser.impl,com.fasterxml.jackson.databind.util,com.fasterxml.jackson.annotation,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.core.io'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.jongo.marshall.jackson'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='org.jongo.marshall,com.fasterxml.jackson.databind,org.jongo.bson,org.jongo.marshall.jackson.configuration,org.jongo.marshall.jackson.oid,org.jongo,com.fasterxml.jackson.annotation,org.jongo.query'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.mongodb.tools'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='javax.management.remote,javax.management.openmbean,javax.management'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.core.json'/>
+      <attribute name='version' type='Version' value='2.2.3'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.core,com.fasterxml.jackson.core.io,com.fasterxml.jackson.core.sym,com.fasterxml.jackson.core.format,com.fasterxml.jackson.core.util,com.fasterxml.jackson.core.base'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.databind.jsontype.impl'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.databind.util,com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.core.util,com.fasterxml.jackson.annotation,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.deser.std,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.annotation'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.databind.node'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.util,com.fasterxml.jackson.core.io,com.fasterxml.jackson.core.util,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.core.base'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.core.type'/>
+      <attribute name='version' type='Version' value='2.2.3'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.databind.ser'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.ser.std,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.util,com.fasterxml.jackson.databind.annotation,com.fasterxml.jackson.databind.ser.impl,com.fasterxml.jackson.databind.cfg,com.fasterxml.jackson.annotation,com.fasterxml.jackson.databind.ext,com.fasterxml.jackson.databind.jsonFormatVisitors,com.fasterxml.jackson.databind.node,com.fasterxml.jackson.core.io,com.fasterxml.jackson.databind.jsonschema'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.databind.annotation'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.annotation,com.fasterxml.jackson.databind.util,com.fasterxml.jackson.databind,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.deser'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.jongo'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='org.jongo.marshall,org.jongo.query,com.mongodb,org.bson,org.bson.types,org.jongo.bson,org.jongo.marshall.jackson'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.fasterxml.jackson.databind.cfg'/>
+      <attribute name='version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.databind.util,com.fasterxml.jackson.core,com.fasterxml.jackson.databind,com.fasterxml.jackson.annotation,com.fasterxml.jackson.databind.introspect,com.fasterxml.jackson.databind.jsontype,com.fasterxml.jackson.databind.type,com.fasterxml.jackson.databind.deser.std,com.fasterxml.jackson.databind.deser,com.fasterxml.jackson.core.type,com.fasterxml.jackson.core.util,com.fasterxml.jackson.databind.ser'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.mongodb.io'/>
+      <attribute name='version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='de.undercouch.bson4jackson'/>
+      <attribute name='version' type='Version' value='2.2.3'/>
+      <attribute name='bundle-symbolic-name' value='org.jongo'/>
+      <attribute name='bundle-version' type='Version' value='1.0.0.SNAPSHOT'/>
+      <directive name='uses' value='com.fasterxml.jackson.core.io,com.fasterxml.jackson.core,com.fasterxml.jackson.core.json,com.fasterxml.jackson.databind,com.fasterxml.jackson.core.base,de.undercouch.bson4jackson.types,de.undercouch.bson4jackson.io,com.fasterxml.jackson.databind.ser,de.undercouch.bson4jackson.serializers,com.fasterxml.jackson.core.type'/>
+    </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.management)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.management.openmbean)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.management.remote)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.net)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.net.ssl)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.security.auth.callback)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.security.sasl)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.xml.datatype)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.xml.namespace)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.xml.parsers)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=org.ietf.jgss)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=org.w3c.dom)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=org.w3c.dom.bootstrap)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=org.w3c.dom.ls)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=org.xml.sax)'/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='org.mongodb.mongodb-driver'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='3.0.0.1'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='6c1e892c03ee5b1c97e46c618fa3fda9fc81bfe8aeb080270355ccb28736fef3'/>
+      <attribute name='url' value='org.mongodb.mongodb-driver/org.mongodb.mongodb-driver-3.0.0.jar'/>
+      <attribute name='size' type='Long' value='595576'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='org.mongodb.mongodb-driver'/>
+      <attribute name='bundle-version' type='Version' value='3.0.0.1'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='org.mongodb.mongodb-driver'/>
+      <attribute name='bundle-version' type='Version' value='3.0.0.1'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.bson.types'/>
+      <attribute name='version' type='Version' value='3.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongodb-driver'/>
+      <attribute name='bundle-version' type='Version' value='3.0.0.1'/>
+      <directive name='uses' value='org.mongodb'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb'/>
+      <attribute name='version' type='Version' value='3.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongodb-driver'/>
+      <attribute name='bundle-version' type='Version' value='3.0.0.1'/>
+      <directive name='uses' value='org.bson,org.bson.types,org.mongodb.annotations,org.mongodb.async,org.mongodb.codecs,org.mongodb.command,org.mongodb.connection,org.mongodb.json,org.mongodb.operation,org.mongodb.session'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.annotations'/>
+      <attribute name='version' type='Version' value='3.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongodb-driver'/>
+      <attribute name='bundle-version' type='Version' value='3.0.0.1'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.assertions'/>
+      <attribute name='version' type='Version' value='3.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongodb-driver'/>
+      <attribute name='bundle-version' type='Version' value='3.0.0.1'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.async'/>
+      <attribute name='version' type='Version' value='3.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongodb-driver'/>
+      <attribute name='bundle-version' type='Version' value='3.0.0.1'/>
+      <directive name='uses' value='org.mongodb,org.mongodb.connection,org.mongodb.operation,org.mongodb.session'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.codecs'/>
+      <attribute name='version' type='Version' value='3.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongodb-driver'/>
+      <attribute name='bundle-version' type='Version' value='3.0.0.1'/>
+      <directive name='uses' value='org.bson,org.bson.types,org.mongodb,org.mongodb.codecs.validators,org.mongodb.connection'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.codecs.validators'/>
+      <attribute name='version' type='Version' value='3.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongodb-driver'/>
+      <attribute name='bundle-version' type='Version' value='3.0.0.1'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.command'/>
+      <attribute name='version' type='Version' value='3.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongodb-driver'/>
+      <attribute name='bundle-version' type='Version' value='3.0.0.1'/>
+      <directive name='uses' value='org.bson,org.mongodb,org.mongodb.codecs,org.mongodb.connection,org.mongodb.operation,org.mongodb.session'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.connection'/>
+      <attribute name='version' type='Version' value='3.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongodb-driver'/>
+      <attribute name='bundle-version' type='Version' value='3.0.0.1'/>
+      <directive name='uses' value='org.bson,org.bson.io,org.mongodb,org.mongodb.annotations'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.connection.impl'/>
+      <attribute name='version' type='Version' value='3.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongodb-driver'/>
+      <attribute name='bundle-version' type='Version' value='3.0.0.1'/>
+      <directive name='uses' value='javax.net,javax.net.ssl,javax.security.sasl,org.bson,org.mongodb,org.mongodb.connection'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.diagnostics'/>
+      <attribute name='version' type='Version' value='3.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongodb-driver'/>
+      <attribute name='bundle-version' type='Version' value='3.0.0.1'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.json'/>
+      <attribute name='version' type='Version' value='3.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongodb-driver'/>
+      <attribute name='bundle-version' type='Version' value='3.0.0.1'/>
+      <directive name='uses' value='org.bson,org.bson.types,org.mongodb.annotations'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.management'/>
+      <attribute name='version' type='Version' value='3.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongodb-driver'/>
+      <attribute name='bundle-version' type='Version' value='3.0.0.1'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.management.jmx'/>
+      <attribute name='version' type='Version' value='3.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongodb-driver'/>
+      <attribute name='bundle-version' type='Version' value='3.0.0.1'/>
+      <directive name='uses' value='org.mongodb.management'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.operation'/>
+      <attribute name='version' type='Version' value='3.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongodb-driver'/>
+      <attribute name='bundle-version' type='Version' value='3.0.0.1'/>
+      <directive name='uses' value='org.bson.types,org.mongodb,org.mongodb.annotations,org.mongodb.connection,org.mongodb.operation.protocol,org.mongodb.session'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.operation.protocol'/>
+      <attribute name='version' type='Version' value='3.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongodb-driver'/>
+      <attribute name='bundle-version' type='Version' value='3.0.0.1'/>
+      <directive name='uses' value='org.bson,org.bson.io,org.mongodb,org.mongodb.codecs,org.mongodb.connection,org.mongodb.operation'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.session'/>
+      <attribute name='version' type='Version' value='3.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongodb-driver'/>
+      <attribute name='bundle-version' type='Version' value='3.0.0.1'/>
+      <directive name='uses' value='org.mongodb,org.mongodb.annotations,org.mongodb.connection,org.mongodb.operation'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.util'/>
+      <attribute name='version' type='Version' value='3.0.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongodb-driver'/>
+      <attribute name='bundle-version' type='Version' value='3.0.0.1'/>
+    </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.management)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.net)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.net.ssl)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=com.mongodb)'/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='org.apache.servicemix.bundles.cglib'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='2.2.0.2'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='de45d3c88ff8d2903b0696a1a915bb7e0ad73e6d0d736beab38d98ea47e79b5d'/>
+      <attribute name='url' value='org.apache.servicemix.bundles.cglib/org.apache.servicemix.bundles.cglib-2.2.0.jar'/>
+      <attribute name='size' type='Long' value='331096'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='org.apache.servicemix.bundles.cglib'/>
+      <attribute name='bundle-version' type='Version' value='2.2.0.2'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='org.apache.servicemix.bundles.cglib'/>
+      <attribute name='bundle-version' type='Version' value='2.2.0.2'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='net.sf.cglib.transform'/>
+      <attribute name='version' type='Version' value='2.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.apache.servicemix.bundles.cglib'/>
+      <attribute name='bundle-version' type='Version' value='2.2.0.2'/>
+      <directive name='uses' value='net.sf.cglib.asm,net.sf.cglib.core,org.apache.tools.ant.types,org.apache.tools.ant'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='net.sf.cglib.reflect'/>
+      <attribute name='version' type='Version' value='2.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.apache.servicemix.bundles.cglib'/>
+      <attribute name='bundle-version' type='Version' value='2.2.0.2'/>
+      <directive name='uses' value='net.sf.cglib.asm,net.sf.cglib.core'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='net.sf.cglib.transform.impl'/>
+      <attribute name='version' type='Version' value='2.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.apache.servicemix.bundles.cglib'/>
+      <attribute name='bundle-version' type='Version' value='2.2.0.2'/>
+      <directive name='uses' value='net.sf.cglib.asm,net.sf.cglib.transform,net.sf.cglib.core'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='net.sf.cglib.asm'/>
+      <attribute name='version' type='Version' value='2.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.apache.servicemix.bundles.cglib'/>
+      <attribute name='bundle-version' type='Version' value='2.2.0.2'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='net.sf.cglib.proxy'/>
+      <attribute name='version' type='Version' value='2.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.apache.servicemix.bundles.cglib'/>
+      <attribute name='bundle-version' type='Version' value='2.2.0.2'/>
+      <directive name='uses' value='net.sf.cglib.core,net.sf.cglib.asm,net.sf.cglib.reflect'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='net.sf.cglib.util'/>
+      <attribute name='version' type='Version' value='2.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.apache.servicemix.bundles.cglib'/>
+      <attribute name='bundle-version' type='Version' value='2.2.0.2'/>
+      <directive name='uses' value='net.sf.cglib.asm,net.sf.cglib.core'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='net.sf.cglib.asm.signature'/>
+      <attribute name='version' type='Version' value='2.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.apache.servicemix.bundles.cglib'/>
+      <attribute name='bundle-version' type='Version' value='2.2.0.2'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='net.sf.cglib.beans'/>
+      <attribute name='version' type='Version' value='2.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.apache.servicemix.bundles.cglib'/>
+      <attribute name='bundle-version' type='Version' value='2.2.0.2'/>
+      <directive name='uses' value='net.sf.cglib.asm,net.sf.cglib.core'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='net.sf.cglib.core'/>
+      <attribute name='version' type='Version' value='2.2.0'/>
+      <attribute name='bundle-symbolic-name' value='org.apache.servicemix.bundles.cglib'/>
+      <attribute name='bundle-version' type='Version' value='2.2.0.2'/>
+      <directive name='uses' value='net.sf.cglib.asm'/>
+    </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.tools.ant)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='resolution' value='optional'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.apache.tools.ant.types)(version&gt;=1.7.0)(!(version&gt;=2.0.0)))'/>
+      <directive name='resolution' value='optional'/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='org.mongodb.morphia'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='0.106.0.SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='4a52113a97fee7c27fbb88167591b698bb0b1409749bb702444b2ddcbd56f1de'/>
+      <attribute name='url' value='org.mongodb.morphia/org.mongodb.morphia-0.106.0.jar'/>
+      <attribute name='size' type='Long' value='271435'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='org.mongodb.morphia'/>
+      <attribute name='bundle-version' type='Version' value='0.106.0.SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='org.mongodb.morphia'/>
+      <attribute name='bundle-version' type='Version' value='0.106.0.SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.morphia'/>
+      <attribute name='version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.morphia'/>
+      <attribute name='bundle-version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <directive name='uses' value='com.mongodb,org.mongodb.morphia.annotations,org.mongodb.morphia.dao,org.mongodb.morphia.mapping,org.mongodb.morphia.mapping.cache,org.mongodb.morphia.query,org.mongodb.morphia.utils'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.morphia.annotations'/>
+      <attribute name='version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.morphia'/>
+      <attribute name='bundle-version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <directive name='uses' value='org.mongodb.morphia.converters,org.mongodb.morphia.utils'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.morphia.config'/>
+      <attribute name='version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.morphia'/>
+      <attribute name='bundle-version' type='Version' value='0.106.0.SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.morphia.converters'/>
+      <attribute name='version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.morphia'/>
+      <attribute name='bundle-version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <directive name='uses' value='com.mongodb,org.mongodb.morphia.mapping'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.morphia.dao'/>
+      <attribute name='version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.morphia'/>
+      <attribute name='bundle-version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <directive name='uses' value='com.mongodb,org.mongodb.morphia,org.mongodb.morphia.query'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.morphia.logging'/>
+      <attribute name='version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.morphia'/>
+      <attribute name='bundle-version' type='Version' value='0.106.0.SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.morphia.logging.jdk'/>
+      <attribute name='version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.morphia'/>
+      <attribute name='bundle-version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <directive name='uses' value='org.mongodb.morphia.logging'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.morphia.mapping'/>
+      <attribute name='version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.morphia'/>
+      <attribute name='bundle-version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <directive name='uses' value='com.mongodb,org.mongodb.morphia,org.mongodb.morphia.annotations,org.mongodb.morphia.converters,org.mongodb.morphia.mapping.cache,org.mongodb.morphia.mapping.lazy,org.mongodb.morphia.query'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.morphia.mapping.cache'/>
+      <attribute name='version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.morphia'/>
+      <attribute name='bundle-version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <directive name='uses' value='org.mongodb.morphia'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.morphia.mapping.lazy'/>
+      <attribute name='version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.morphia'/>
+      <attribute name='bundle-version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <directive name='uses' value='org.mongodb.morphia'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.morphia.mapping.lazy.proxy'/>
+      <attribute name='version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.morphia'/>
+      <attribute name='bundle-version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <directive name='uses' value='com.thoughtworks.proxy.kit,org.mongodb.morphia,org.mongodb.morphia.mapping.lazy'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.morphia.mapping.validation'/>
+      <attribute name='version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.morphia'/>
+      <attribute name='bundle-version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <directive name='uses' value='org.mongodb.morphia.mapping'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.morphia.mapping.validation.classrules'/>
+      <attribute name='version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.morphia'/>
+      <attribute name='bundle-version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <directive name='uses' value='org.mongodb.morphia.mapping,org.mongodb.morphia.mapping.validation'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.morphia.mapping.validation.fieldrules'/>
+      <attribute name='version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.morphia'/>
+      <attribute name='bundle-version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <directive name='uses' value='org.mongodb.morphia.mapping,org.mongodb.morphia.mapping.validation'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.morphia.query'/>
+      <attribute name='version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.morphia'/>
+      <attribute name='bundle-version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <directive name='uses' value='com.mongodb,org.bson.types,org.mongodb.morphia,org.mongodb.morphia.mapping,org.mongodb.morphia.mapping.cache'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.mongodb.morphia.utils'/>
+      <attribute name='version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.morphia'/>
+      <attribute name='bundle-version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <directive name='uses' value='com.mongodb,org.mongodb.morphia,org.mongodb.morphia.annotations,org.mongodb.morphia.query'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='relocated.morphia.org.apache.commons.collections'/>
+      <attribute name='version' type='Version' value='0.106.0.SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.morphia'/>
+      <attribute name='bundle-version' type='Version' value='0.106.0.SNAPSHOT'/>
+    </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=com.mongodb)(version&gt;=2.11.0)(!(version&gt;=3.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=com.thoughtworks.proxy)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=com.thoughtworks.proxy.factory)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=com.thoughtworks.proxy.kit)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=com.thoughtworks.proxy.toys.delegate)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=com.thoughtworks.proxy.toys.dispatch)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=com.thoughtworks.proxy.toys.hotswap)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.bson)(version&gt;=2.11.0)(!(version&gt;=3.0.0)))'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(&amp;(osgi.wiring.package=org.bson.types)(version&gt;=2.11.0)(!(version&gt;=3.0.0)))'/>
+    </requirement>
+  </resource>
+  <resource>
+    <capability namespace='osgi.identity'>
+      <attribute name='osgi.identity' value='org.mongodb.mongo-java-driver'/>
+      <attribute name='type' value='osgi.bundle'/>
+      <attribute name='version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.content'>
+      <attribute name='osgi.content' value='9a5db486357ab35b64cea09010d65e043518b9dc741393975dc5ac656998ad08'/>
+      <attribute name='url' value='org.mongodb.mongo-java-driver/org.mongodb.mongo-java-driver-2.12.0.jar'/>
+      <attribute name='size' type='Long' value='543403'/>
+      <attribute name='mime' value='application/vnd.osgi.bundle'/>
+    </capability>
+    <capability namespace='osgi.wiring.bundle'>
+      <attribute name='osgi.wiring.bundle' value='org.mongodb.mongo-java-driver'/>
+      <attribute name='bundle-version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.wiring.host'>
+      <attribute name='osgi.wiring.host' value='org.mongodb.mongo-java-driver'/>
+      <attribute name='bundle-version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.mongodb'/>
+      <attribute name='version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongo-java-driver'/>
+      <attribute name='bundle-version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.mongodb.io'/>
+      <attribute name='version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongo-java-driver'/>
+      <attribute name='bundle-version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.mongodb.util'/>
+      <attribute name='version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongo-java-driver'/>
+      <attribute name='bundle-version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='com.mongodb.gridfs'/>
+      <attribute name='version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongo-java-driver'/>
+      <attribute name='bundle-version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.bson'/>
+      <attribute name='version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongo-java-driver'/>
+      <attribute name='bundle-version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.bson.util'/>
+      <attribute name='version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongo-java-driver'/>
+      <attribute name='bundle-version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.bson.util.annotations'/>
+      <attribute name='version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongo-java-driver'/>
+      <attribute name='bundle-version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.bson.types'/>
+      <attribute name='version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongo-java-driver'/>
+      <attribute name='bundle-version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+    </capability>
+    <capability namespace='osgi.wiring.package'>
+      <attribute name='osgi.wiring.package' value='org.bson.io'/>
+      <attribute name='version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+      <attribute name='bundle-symbolic-name' value='org.mongodb.mongo-java-driver'/>
+      <attribute name='bundle-version' type='Version' value='2.12.0.BUILD-SNAPSHOT'/>
+    </capability>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.management)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.net)'/>
+    </requirement>
+    <requirement namespace='osgi.wiring.package'>
+      <directive name='filter' value='(osgi.wiring.package=javax.net.ssl)'/>
+    </requirement>
+  </resource>
+</repository>

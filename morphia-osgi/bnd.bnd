@@ -1,0 +1,9 @@
+-buildpath: \
+	org.mongodb.morphia,\
+	org.apache.felix.dependencymanager,\
+	osgi.core,\
+	org.apache.felix.gogo.runtime,\
+	org.mongodb.mongodb-driver;version=3.0,\
+	org.mongodb.mongo-java-driver
+-sub: \
+	*.bnd

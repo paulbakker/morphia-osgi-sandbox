@@ -1,0 +1,2 @@
+Include-Resource: @lib/proxytoys-1.0.jar
+Export-Package: com.thoughtworks,com.thoughtworks.proxy,com.thoughtworks.proxy.factory,com.thoughtworks.proxy.kit,com.thoughtworks.proxy.toys.delegate,com.thoughtworks.proxy.toys.dispatch,com.thoughtworks.proxy.toys.hotswap
